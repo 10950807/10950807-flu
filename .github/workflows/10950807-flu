@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>流感疫苗施打宣傳</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #3498db;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 1em;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h1 {
+      color: #3498db;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .cta-button:hover {
+      background-color: #2980b9;
+    }
+
+    footer {
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>推廣流感疫苗施打</h1>
+  </header>
+
+  <section>
+    <h2>為什麼施打流感疫苗是重要的？</h2>
+    <p>流感是一種嚴重的呼吸道疾病，可能導致嚴重的併發症，甚至死亡。施打流感疫苗可以有效降低感染流感的風險，並減輕症狀的嚴重程度。</p>
+
+    <h2>為什麼選擇我們的流感疫苗？</h2>
+    <p>我們的流感疫苗是經過科學研究和臨床試驗的，安全可靠。立即預約施打，保護您和您的家人免受流感的威脅。</p>
+
+    <a href="#appointment" class="cta-button">立即預約</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 推廣流感疫苗施打</p>
+  </footer>
+</body>
+</html>
