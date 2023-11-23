@@ -3,44 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>推廣流感疫苗施打網頁!</title>
-  <style> !
+  <title>推廣流感疫苗施打</title>
+  <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
     }
 
     header {
-      background-color: #3498db;
+      background-color: #3d4a58;
       color: #fff;
-      padding: 1em 0;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #4e5d6c;
+      color: #fff;
+      padding: 10px 0;
       text-align: center;
     }
 
     section {
-      max-width: 800px;
-      margin: 2em auto;
-      padding: 1em;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
       background-color: #fff;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
+      line-height: 1.6;
     }
 
-    h1 {
-      color: #3498db;
+    h1, h2, h3 {
+      color: #3d4a58;
     }
 
     p {
-      line-height: 1.6;
+      margin-bottom: 20px;
     }
 
     .cta-button {
       display: inline-block;
       padding: 10px 20px;
-      background-color: #3498db;
+      background-color: #3d4a58;
       color: #fff;
       text-decoration: none;
       border-radius: 5px;
@@ -48,24 +54,40 @@
     }
 
     .cta-button:hover {
-      background-color: #2980b9;
+      background-color: #2f3842;
+    }
+
+    .image-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
     }
 
     footer {
-      background-color: #3498db;
+      background-color: #3d4a58;
       color: #fff;
       text-align: center;
-      padding: 1em 0;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
+      padding: 20px 0;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>推廣流感疫苗施打</h1>
+    <h1>
+      <img src="https://i2.wp.com/www.biomedviews.com/wp-content/uploads/2016/11/nanopatch.jpg?resize=900%2C450&ssl=1">
+      Your Title Here
+  </h1>
   </header>
+
+  <nav>
+    <!-- Add navigation links if needed -->
+  </nav>
 
   <section>
     <h2>為什麼施打流感疫苗是重要的？</h2>
@@ -73,6 +95,10 @@
 
     <h2>為什麼選擇我們的流感疫苗？</h2>
     <p>我們的流感疫苗是經過科學研究和臨床試驗的，安全可靠。立即預約施打，保護您和您的家人免受流感的威脅。</p>
+
+    <div class="image-container">
+      <img src="data:image/jpeg;base64,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" alt="疫苗圖片">
+    </div>
 
     <a href="#appointment" class="cta-button">立即預約</a>
   </section>
